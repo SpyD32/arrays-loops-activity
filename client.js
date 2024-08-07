@@ -5,7 +5,15 @@
  * 2. Write a loop that logs out each hobby
  * 3. After the loop, log out the total number of
  *    hobbies
- */
+ */let myHobbies = ['videoGames' , 'workout' , 'readManga', 'family'];
+     let totalHobbies = 0
+     for(let count = 0; count <= myHobbies.length -1; count += 1); {
+          console.log(myHobbies[count]);
+          totalHobbies++
+     }
+
+     console.log(totalHobbies)
+
 
 
 // Example output
@@ -24,7 +32,9 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
-
+let colors = ['teal', 'white', 'grey', 'black', 'red', 'blue', 'yellow' 'teal', 'teal'];
+let tealCount = 0 
+     for(let count = 0; count <= tealCount.length)
 
 // Example output
 // green, red, teal, orange, teal
